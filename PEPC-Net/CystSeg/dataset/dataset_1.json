@@ -1,0 +1,842 @@
+{
+ "description": "jaw lesion seg",
+ "labels": {
+  "0": "background",
+  "1": "lesion"
+ },
+ "licence": "xian jiaotong university",
+ "modality": {
+  "0": "CT"
+ },
+ "name": "jaw lesion seg",
+ "numTest": 41,
+ "numTraining": 131,
+ "reference": "Vanderbilt University",
+ "release": "1.0 06/08/2015",
+ "tensorImageSize": "3D",
+ "test": [],
+ "training": [
+  {
+   "image": "ct/1440364.nii.gz",
+   "label": "mask/1440364.nii.gz",
+   "edge": "edge/1440364.nii.gz"
+  },
+  {
+   "image": "ct/1440669.nii.gz",
+   "label": "mask/1440669.nii.gz",
+   "edge": "edge/1440669.nii.gz"
+  },
+  {
+   "image": "ct/1441917.nii.gz",
+   "label": "mask/1441917.nii.gz",
+   "edge": "edge/1441917.nii.gz"
+  },
+  {
+   "image": "ct/1446198.nii.gz",
+   "label": "mask/1446198.nii.gz",
+   "edge": "edge/1446198.nii.gz"
+  },
+  {
+   "image": "ct/1449540.nii.gz",
+   "label": "mask/1449540.nii.gz",
+   "edge": "edge/1449540.nii.gz"
+  },
+  {
+   "image": "ct/259567.nii.gz",
+   "label": "mask/259567.nii.gz",
+   "edge": "edge/259567.nii.gz"
+  },
+  {
+   "image": "ct/473106.nii.gz",
+   "label": "mask/473106.nii.gz",
+   "edge": "edge/473106.nii.gz"
+  },
+  {
+   "image": "ct/C0001.nii.gz",
+   "label": "mask/C0001.nii.gz",
+   "edge": "edge/C0001.nii.gz"
+  },
+  {
+   "image": "ct/C0002.nii.gz",
+   "label": "mask/C0002.nii.gz",
+   "edge": "edge/C0002.nii.gz"
+  },
+  {
+   "image": "ct/C0003.nii.gz",
+   "label": "mask/C0003.nii.gz",
+   "edge": "edge/C0003.nii.gz"
+  },
+  {
+   "image": "ct/C0005.nii.gz",
+   "label": "mask/C0005.nii.gz",
+   "edge": "edge/C0005.nii.gz"
+  },
+  {
+   "image": "ct/C0006.nii.gz",
+   "label": "mask/C0006.nii.gz",
+   "edge": "edge/C0006.nii.gz"
+  },
+  {
+   "image": "ct/C0009.nii.gz",
+   "label": "mask/C0009.nii.gz",
+   "edge": "edge/C0009.nii.gz"
+  },
+  {
+   "image": "ct/C0010.nii.gz",
+   "label": "mask/C0010.nii.gz",
+   "edge": "edge/C0010.nii.gz"
+  },
+  {
+   "image": "ct/C0011.nii.gz",
+   "label": "mask/C0011.nii.gz",
+   "edge": "edge/C0011.nii.gz"
+  },
+  {
+   "image": "ct/C0014.nii.gz",
+   "label": "mask/C0014.nii.gz",
+   "edge": "edge/C0014.nii.gz"
+  },
+  {
+   "image": "ct/C0015.nii.gz",
+   "label": "mask/C0015.nii.gz",
+   "edge": "edge/C0015.nii.gz"
+  },
+  {
+   "image": "ct/C0016.nii.gz",
+   "label": "mask/C0016.nii.gz",
+   "edge": "edge/C0016.nii.gz"
+  },
+  {
+   "image": "ct/C0017.nii.gz",
+   "label": "mask/C0017.nii.gz",
+   "edge": "edge/C0017.nii.gz"
+  },
+  {
+   "image": "ct/C0019.nii.gz",
+   "label": "mask/C0019.nii.gz",
+   "edge": "edge/C0019.nii.gz"
+  },
+  {
+   "image": "ct/C0020.nii.gz",
+   "label": "mask/C0020.nii.gz",
+   "edge": "edge/C0020.nii.gz"
+  },
+  {
+   "image": "ct/C0021.nii.gz",
+   "label": "mask/C0021.nii.gz",
+   "edge": "edge/C0021.nii.gz"
+  },
+  {
+   "image": "ct/C0023.nii.gz",
+   "label": "mask/C0023.nii.gz",
+   "edge": "edge/C0023.nii.gz"
+  },
+  {
+   "image": "ct/C0024.nii.gz",
+   "label": "mask/C0024.nii.gz",
+   "edge": "edge/C0024.nii.gz"
+  },
+  {
+   "image": "ct/C0025.nii.gz",
+   "label": "mask/C0025.nii.gz",
+   "edge": "edge/C0025.nii.gz"
+  },
+  {
+   "image": "ct/C0027.nii.gz",
+   "label": "mask/C0027.nii.gz",
+   "edge": "edge/C0027.nii.gz"
+  },
+  {
+   "image": "ct/C0030.nii.gz",
+   "label": "mask/C0030.nii.gz",
+   "edge": "edge/C0030.nii.gz"
+  },
+  {
+   "image": "ct/C0032.nii.gz",
+   "label": "mask/C0032.nii.gz",
+   "edge": "edge/C0032.nii.gz"
+  },
+  {
+   "image": "ct/C0034.nii.gz",
+   "label": "mask/C0034.nii.gz",
+   "edge": "edge/C0034.nii.gz"
+  },
+  {
+   "image": "ct/C0035.nii.gz",
+   "label": "mask/C0035.nii.gz",
+   "edge": "edge/C0035.nii.gz"
+  },
+  {
+   "image": "ct/C0042.nii.gz",
+   "label": "mask/C0042.nii.gz",
+   "edge": "edge/C0042.nii.gz"
+  },
+  {
+   "image": "ct/C0044.nii.gz",
+   "label": "mask/C0044.nii.gz",
+   "edge": "edge/C0044.nii.gz"
+  },
+  {
+   "image": "ct/C0046.nii.gz",
+   "label": "mask/C0046.nii.gz",
+   "edge": "edge/C0046.nii.gz"
+  },
+  {
+   "image": "ct/C0048.nii.gz",
+   "label": "mask/C0048.nii.gz",
+   "edge": "edge/C0048.nii.gz"
+  },
+  {
+   "image": "ct/C0049.nii.gz",
+   "label": "mask/C0049.nii.gz",
+   "edge": "edge/C0049.nii.gz"
+  },
+  {
+   "image": "ct/C0050.nii.gz",
+   "label": "mask/C0050.nii.gz",
+   "edge": "edge/C0050.nii.gz"
+  },
+  {
+   "image": "ct/C0051.nii.gz",
+   "label": "mask/C0051.nii.gz",
+   "edge": "edge/C0051.nii.gz"
+  },
+  {
+   "image": "ct/C0056.nii.gz",
+   "label": "mask/C0056.nii.gz",
+   "edge": "edge/C0056.nii.gz"
+  },
+  {
+   "image": "ct/C0058.nii.gz",
+   "label": "mask/C0058.nii.gz",
+   "edge": "edge/C0058.nii.gz"
+  },
+  {
+   "image": "ct/C0060.nii.gz",
+   "label": "mask/C0060.nii.gz",
+   "edge": "edge/C0060.nii.gz"
+  },
+  {
+   "image": "ct/C0061.nii.gz",
+   "label": "mask/C0061.nii.gz",
+   "edge": "edge/C0061.nii.gz"
+  },
+  {
+   "image": "ct/C0064.nii.gz",
+   "label": "mask/C0064.nii.gz",
+   "edge": "edge/C0064.nii.gz"
+  },
+  {
+   "image": "ct/C0066.nii.gz",
+   "label": "mask/C0066.nii.gz",
+   "edge": "edge/C0066.nii.gz"
+  },
+  {
+   "image": "ct/C0067.nii.gz",
+   "label": "mask/C0067.nii.gz",
+   "edge": "edge/C0067.nii.gz"
+  },
+  {
+   "image": "ct/C0068.nii.gz",
+   "label": "mask/C0068.nii.gz",
+   "edge": "edge/C0068.nii.gz"
+  },
+  {
+   "image": "ct/C0069.nii.gz",
+   "label": "mask/C0069.nii.gz",
+   "edge": "edge/C0069.nii.gz"
+  },
+  {
+   "image": "ct/C0071.nii.gz",
+   "label": "mask/C0071.nii.gz",
+   "edge": "edge/C0071.nii.gz"
+  },
+  {
+   "image": "ct/C0072.nii.gz",
+   "label": "mask/C0072.nii.gz",
+   "edge": "edge/C0072.nii.gz"
+  },
+  {
+   "image": "ct/C0073.nii.gz",
+   "label": "mask/C0073.nii.gz",
+   "edge": "edge/C0073.nii.gz"
+  },
+  {
+   "image": "ct/C0075.nii.gz",
+   "label": "mask/C0075.nii.gz",
+   "edge": "edge/C0075.nii.gz"
+  },
+  {
+   "image": "ct/C0082.nii.gz",
+   "label": "mask/C0082.nii.gz",
+   "edge": "edge/C0082.nii.gz"
+  },
+  {
+   "image": "ct/C0083.nii.gz",
+   "label": "mask/C0083.nii.gz",
+   "edge": "edge/C0083.nii.gz"
+  },
+  {
+   "image": "ct/C0085.nii.gz",
+   "label": "mask/C0085.nii.gz",
+   "edge": "edge/C0085.nii.gz"
+  },
+  {
+   "image": "ct/C0086.nii.gz",
+   "label": "mask/C0086.nii.gz",
+   "edge": "edge/C0086.nii.gz"
+  },
+  {
+   "image": "ct/C0088.nii.gz",
+   "label": "mask/C0088.nii.gz",
+   "edge": "edge/C0088.nii.gz"
+  },
+  {
+   "image": "ct/C0089.nii.gz",
+   "label": "mask/C0089.nii.gz",
+   "edge": "edge/C0089.nii.gz"
+  },
+  {
+   "image": "ct/C0091.nii.gz",
+   "label": "mask/C0091.nii.gz",
+   "edge": "edge/C0091.nii.gz"
+  },
+  {
+   "image": "ct/C0093.nii.gz",
+   "label": "mask/C0093.nii.gz",
+   "edge": "edge/C0093.nii.gz"
+  },
+  {
+   "image": "ct/C0095.nii.gz",
+   "label": "mask/C0095.nii.gz",
+   "edge": "edge/C0095.nii.gz"
+  },
+  {
+   "image": "ct/C0096.nii.gz",
+   "label": "mask/C0096.nii.gz",
+   "edge": "edge/C0096.nii.gz"
+  },
+  {
+   "image": "ct/C0097.nii.gz",
+   "label": "mask/C0097.nii.gz",
+   "edge": "edge/C0097.nii.gz"
+  },
+  {
+   "image": "ct/C0098.nii.gz",
+   "label": "mask/C0098.nii.gz",
+   "edge": "edge/C0098.nii.gz"
+  },
+  {
+   "image": "ct/C0100.nii.gz",
+   "label": "mask/C0100.nii.gz",
+   "edge": "edge/C0100.nii.gz"
+  },
+  {
+   "image": "ct/C0102.nii.gz",
+   "label": "mask/C0102.nii.gz",
+   "edge": "edge/C0102.nii.gz"
+  },
+  {
+   "image": "ct/C0104.nii.gz",
+   "label": "mask/C0104.nii.gz",
+   "edge": "edge/C0104.nii.gz"
+  },
+  {
+   "image": "ct/C0107.nii.gz",
+   "label": "mask/C0107.nii.gz",
+   "edge": "edge/C0107.nii.gz"
+  },
+  {
+   "image": "ct/C0109.nii.gz",
+   "label": "mask/C0109.nii.gz",
+   "edge": "edge/C0109.nii.gz"
+  },
+  {
+   "image": "ct/C0110.nii.gz",
+   "label": "mask/C0110.nii.gz",
+   "edge": "edge/C0110.nii.gz"
+  },
+  {
+   "image": "ct/C0111.nii.gz",
+   "label": "mask/C0111.nii.gz",
+   "edge": "edge/C0111.nii.gz"
+  },
+  {
+   "image": "ct/C0112.nii.gz",
+   "label": "mask/C0112.nii.gz",
+   "edge": "edge/C0112.nii.gz"
+  },
+  {
+   "image": "ct/C0113.nii.gz",
+   "label": "mask/C0113.nii.gz",
+   "edge": "edge/C0113.nii.gz"
+  },
+  {
+   "image": "ct/C0114.nii.gz",
+   "label": "mask/C0114.nii.gz",
+   "edge": "edge/C0114.nii.gz"
+  },
+  {
+   "image": "ct/C0115.nii.gz",
+   "label": "mask/C0115.nii.gz",
+   "edge": "edge/C0115.nii.gz"
+  },
+  {
+   "image": "ct/C0117.nii.gz",
+   "label": "mask/C0117.nii.gz",
+   "edge": "edge/C0117.nii.gz"
+  },
+  {
+   "image": "ct/C0119.nii.gz",
+   "label": "mask/C0119.nii.gz",
+   "edge": "edge/C0119.nii.gz"
+  },
+  {
+   "image": "ct/C0120.nii.gz",
+   "label": "mask/C0120.nii.gz",
+   "edge": "edge/C0120.nii.gz"
+  },
+  {
+   "image": "ct/C0122.nii.gz",
+   "label": "mask/C0122.nii.gz",
+   "edge": "edge/C0122.nii.gz"
+  },
+  {
+   "image": "ct/C0124.nii.gz",
+   "label": "mask/C0124.nii.gz",
+   "edge": "edge/C0124.nii.gz"
+  },
+  {
+   "image": "ct/C0125.nii.gz",
+   "label": "mask/C0125.nii.gz",
+   "edge": "edge/C0125.nii.gz"
+  },
+  {
+   "image": "ct/C0127.nii.gz",
+   "label": "mask/C0127.nii.gz",
+   "edge": "edge/C0127.nii.gz"
+  },
+  {
+   "image": "ct/C0132.nii.gz",
+   "label": "mask/C0132.nii.gz",
+   "edge": "edge/C0132.nii.gz"
+  },
+  {
+   "image": "ct/C0133.nii.gz",
+   "label": "mask/C0133.nii.gz",
+   "edge": "edge/C0133.nii.gz"
+  },
+  {
+   "image": "ct/C0136.nii.gz",
+   "label": "mask/C0136.nii.gz",
+   "edge": "edge/C0136.nii.gz"
+  },
+  {
+   "image": "ct/C0137.nii.gz",
+   "label": "mask/C0137.nii.gz",
+   "edge": "edge/C0137.nii.gz"
+  },
+  {
+   "image": "ct/C0142.nii.gz",
+   "label": "mask/C0142.nii.gz",
+   "edge": "edge/C0142.nii.gz"
+  },
+  {
+   "image": "ct/C0144.nii.gz",
+   "label": "mask/C0144.nii.gz",
+   "edge": "edge/C0144.nii.gz"
+  },
+  {
+   "image": "ct/C0145.nii.gz",
+   "label": "mask/C0145.nii.gz",
+   "edge": "edge/C0145.nii.gz"
+  },
+  {
+   "image": "ct/C0146.nii.gz",
+   "label": "mask/C0146.nii.gz",
+   "edge": "edge/C0146.nii.gz"
+  },
+  {
+   "image": "ct/C0147.nii.gz",
+   "label": "mask/C0147.nii.gz",
+   "edge": "edge/C0147.nii.gz"
+  },
+  {
+   "image": "ct/C0148.nii.gz",
+   "label": "mask/C0148.nii.gz",
+   "edge": "edge/C0148.nii.gz"
+  },
+  {
+   "image": "ct/C0150.nii.gz",
+   "label": "mask/C0150.nii.gz",
+   "edge": "edge/C0150.nii.gz"
+  },
+  {
+   "image": "ct/C0151.nii.gz",
+   "label": "mask/C0151.nii.gz",
+   "edge": "edge/C0151.nii.gz"
+  },
+  {
+   "image": "ct/C0154.nii.gz",
+   "label": "mask/C0154.nii.gz",
+   "edge": "edge/C0154.nii.gz"
+  },
+  {
+   "image": "ct/C0155.nii.gz",
+   "label": "mask/C0155.nii.gz",
+   "edge": "edge/C0155.nii.gz"
+  },
+  {
+   "image": "ct/C0156.nii.gz",
+   "label": "mask/C0156.nii.gz",
+   "edge": "edge/C0156.nii.gz"
+  },
+  {
+   "image": "ct/C0158.nii.gz",
+   "label": "mask/C0158.nii.gz",
+   "edge": "edge/C0158.nii.gz"
+  },
+  {
+   "image": "ct/C0165.nii.gz",
+   "label": "mask/C0165.nii.gz",
+   "edge": "edge/C0165.nii.gz"
+  },
+  {
+   "image": "ct/C0168.nii.gz",
+   "label": "mask/C0168.nii.gz",
+   "edge": "edge/C0168.nii.gz"
+  },
+  {
+   "image": "ct/C0171.nii.gz",
+   "label": "mask/C0171.nii.gz",
+   "edge": "edge/C0171.nii.gz"
+  },
+  {
+   "image": "ct/C0173.nii.gz",
+   "label": "mask/C0173.nii.gz",
+   "edge": "edge/C0173.nii.gz"
+  },
+  {
+   "image": "ct/C0174.nii.gz",
+   "label": "mask/C0174.nii.gz",
+   "edge": "edge/C0174.nii.gz"
+  },
+  {
+   "image": "ct/C0177.nii.gz",
+   "label": "mask/C0177.nii.gz",
+   "edge": "edge/C0177.nii.gz"
+  },
+  {
+   "image": "ct/C0178.nii.gz",
+   "label": "mask/C0178.nii.gz",
+   "edge": "edge/C0178.nii.gz"
+  },
+  {
+   "image": "ct/C0181.nii.gz",
+   "label": "mask/C0181.nii.gz",
+   "edge": "edge/C0181.nii.gz"
+  },
+  {
+   "image": "ct/C0184.nii.gz",
+   "label": "mask/C0184.nii.gz",
+   "edge": "edge/C0184.nii.gz"
+  },
+  {
+   "image": "ct/C0185.nii.gz",
+   "label": "mask/C0185.nii.gz",
+   "edge": "edge/C0185.nii.gz"
+  },
+  {
+   "image": "ct/C0188.nii.gz",
+   "label": "mask/C0188.nii.gz",
+   "edge": "edge/C0188.nii.gz"
+  },
+  {
+   "image": "ct/C0189.nii.gz",
+   "label": "mask/C0189.nii.gz",
+   "edge": "edge/C0189.nii.gz"
+  },
+  {
+   "image": "ct/C0191.nii.gz",
+   "label": "mask/C0191.nii.gz",
+   "edge": "edge/C0191.nii.gz"
+  },
+  {
+   "image": "ct/C0193.nii.gz",
+   "label": "mask/C0193.nii.gz",
+   "edge": "edge/C0193.nii.gz"
+  },
+  {
+   "image": "ct/C0195.nii.gz",
+   "label": "mask/C0195.nii.gz",
+   "edge": "edge/C0195.nii.gz"
+  },
+  {
+   "image": "ct/C0199.nii.gz",
+   "label": "mask/C0199.nii.gz",
+   "edge": "edge/C0199.nii.gz"
+  },
+  {
+   "image": "ct/C0200.nii.gz",
+   "label": "mask/C0200.nii.gz",
+   "edge": "edge/C0200.nii.gz"
+  },
+  {
+   "image": "ct/C0207.nii.gz",
+   "label": "mask/C0207.nii.gz",
+   "edge": "edge/C0207.nii.gz"
+  },
+  {
+   "image": "ct/C0208.nii.gz",
+   "label": "mask/C0208.nii.gz",
+   "edge": "edge/C0208.nii.gz"
+  },
+  {
+   "image": "ct/C0211.nii.gz",
+   "label": "mask/C0211.nii.gz",
+   "edge": "edge/C0211.nii.gz"
+  },
+  {
+   "image": "ct/C0213.nii.gz",
+   "label": "mask/C0213.nii.gz",
+   "edge": "edge/C0213.nii.gz"
+  },
+  {
+   "image": "ct/C0214.nii.gz",
+   "label": "mask/C0214.nii.gz",
+   "edge": "edge/C0214.nii.gz"
+  },
+  {
+   "image": "ct/C0217.nii.gz",
+   "label": "mask/C0217.nii.gz",
+   "edge": "edge/C0217.nii.gz"
+  },
+  {
+   "image": "ct/C0222.nii.gz",
+   "label": "mask/C0222.nii.gz",
+   "edge": "edge/C0222.nii.gz"
+  },
+  {
+   "image": "ct/C0225.nii.gz",
+   "label": "mask/C0225.nii.gz",
+   "edge": "edge/C0225.nii.gz"
+  },
+  {
+   "image": "ct/C0228.nii.gz",
+   "label": "mask/C0228.nii.gz",
+   "edge": "edge/C0228.nii.gz"
+  },
+  {
+   "image": "ct/C0229.nii.gz",
+   "label": "mask/C0229.nii.gz",
+   "edge": "edge/C0229.nii.gz"
+  },
+  {
+   "image": "ct/C0230.nii.gz",
+   "label": "mask/C0230.nii.gz",
+   "edge": "edge/C0230.nii.gz"
+  },
+  {
+   "image": "ct/C0232.nii.gz",
+   "label": "mask/C0232.nii.gz",
+   "edge": "edge/C0232.nii.gz"
+  },
+  {
+   "image": "ct/C0238.nii.gz",
+   "label": "mask/C0238.nii.gz",
+   "edge": "edge/C0238.nii.gz"
+  },
+  {
+   "image": "ct/C0239.nii.gz",
+   "label": "mask/C0239.nii.gz",
+   "edge": "edge/C0239.nii.gz"
+  },
+  {
+   "image": "ct/C0300.nii.gz",
+   "label": "mask/C0300.nii.gz",
+   "edge": "edge/C0300.nii.gz"
+  },
+  {
+   "image": "ct/C0301.nii.gz",
+   "label": "mask/C0301.nii.gz",
+   "edge": "edge/C0301.nii.gz"
+  },
+  {
+   "image": "ct/C0303.nii.gz",
+   "label": "mask/C0303.nii.gz",
+   "edge": "edge/C0303.nii.gz"
+  },
+  {
+   "image": "ct/C0304.nii.gz",
+   "label": "mask/C0304.nii.gz",
+   "edge": "edge/C0304.nii.gz"
+  }
+ ],
+ "validation": [
+  {
+   "image": "ct/1214719.nii.gz",
+   "label": "mask/1214719.nii.gz",
+   "edge": "edge/1214719.nii.gz"
+  },
+  {
+   "image": "ct/1284030.nii.gz",
+   "label": "mask/1284030.nii.gz",
+   "edge": "edge/1284030.nii.gz"
+  },
+  {
+   "image": "ct/1436854.nii.gz",
+   "label": "mask/1436854.nii.gz",
+   "edge": "edge/1436854.nii.gz"
+  },
+  {
+   "image": "ct/891809.nii.gz",
+   "label": "mask/891809.nii.gz",
+   "edge": "edge/891809.nii.gz"
+  },
+  {
+   "image": "ct/C0012.nii.gz",
+   "label": "mask/C0012.nii.gz",
+   "edge": "edge/C0012.nii.gz"
+  },
+  {
+   "image": "ct/C0039.nii.gz",
+   "label": "mask/C0039.nii.gz",
+   "edge": "edge/C0039.nii.gz"
+  },
+  {
+   "image": "ct/C0053.nii.gz",
+   "label": "mask/C0053.nii.gz",
+   "edge": "edge/C0053.nii.gz"
+  },
+  {
+   "image": "ct/C0055.nii.gz",
+   "label": "mask/C0055.nii.gz",
+   "edge": "edge/C0055.nii.gz"
+  },
+  {
+   "image": "ct/C0057.nii.gz",
+   "label": "mask/C0057.nii.gz",
+   "edge": "edge/C0057.nii.gz"
+  },
+  {
+   "image": "ct/C0062.nii.gz",
+   "label": "mask/C0062.nii.gz",
+   "edge": "edge/C0062.nii.gz"
+  },
+  {
+   "image": "ct/C0070.nii.gz",
+   "label": "mask/C0070.nii.gz",
+   "edge": "edge/C0070.nii.gz"
+  },
+  {
+   "image": "ct/C0078.nii.gz",
+   "label": "mask/C0078.nii.gz",
+   "edge": "edge/C0078.nii.gz"
+  },
+  {
+   "image": "ct/C0081.nii.gz",
+   "label": "mask/C0081.nii.gz",
+   "edge": "edge/C0081.nii.gz"
+  },
+  {
+   "image": "ct/C0094.nii.gz",
+   "label": "mask/C0094.nii.gz",
+   "edge": "edge/C0094.nii.gz"
+  },
+  {
+   "image": "ct/C0099.nii.gz",
+   "label": "mask/C0099.nii.gz",
+   "edge": "edge/C0099.nii.gz"
+  },
+  {
+   "image": "ct/C0101.nii.gz",
+   "label": "mask/C0101.nii.gz",
+   "edge": "edge/C0101.nii.gz"
+  },
+  {
+   "image": "ct/C0108.nii.gz",
+   "label": "mask/C0108.nii.gz",
+   "edge": "edge/C0108.nii.gz"
+  },
+  {
+   "image": "ct/C0130.nii.gz",
+   "label": "mask/C0130.nii.gz",
+   "edge": "edge/C0130.nii.gz"
+  },
+  {
+   "image": "ct/C0135.nii.gz",
+   "label": "mask/C0135.nii.gz",
+   "edge": "edge/C0135.nii.gz"
+  },
+  {
+   "image": "ct/C0152.nii.gz",
+   "label": "mask/C0152.nii.gz",
+   "edge": "edge/C0152.nii.gz"
+  },
+  {
+   "image": "ct/C0153.nii.gz",
+   "label": "mask/C0153.nii.gz",
+   "edge": "edge/C0153.nii.gz"
+  },
+  {
+   "image": "ct/C0163.nii.gz",
+   "label": "mask/C0163.nii.gz",
+   "edge": "edge/C0163.nii.gz"
+  },
+  {
+   "image": "ct/C0166.nii.gz",
+   "label": "mask/C0166.nii.gz",
+   "edge": "edge/C0166.nii.gz"
+  },
+  {
+   "image": "ct/C0167.nii.gz",
+   "label": "mask/C0167.nii.gz",
+   "edge": "edge/C0167.nii.gz"
+  },
+  {
+   "image": "ct/C0170.nii.gz",
+   "label": "mask/C0170.nii.gz",
+   "edge": "edge/C0170.nii.gz"
+  },
+  {
+   "image": "ct/C0172.nii.gz",
+   "label": "mask/C0172.nii.gz",
+   "edge": "edge/C0172.nii.gz"
+  },
+  {
+   "image": "ct/C0176.nii.gz",
+   "label": "mask/C0176.nii.gz",
+   "edge": "edge/C0176.nii.gz"
+  },
+  {
+   "image": "ct/C0180.nii.gz",
+   "label": "mask/C0180.nii.gz",
+   "edge": "edge/C0180.nii.gz"
+  },
+  {
+   "image": "ct/C0183.nii.gz",
+   "label": "mask/C0183.nii.gz",
+   "edge": "edge/C0183.nii.gz"
+  },
+  {
+   "image": "ct/C0187.nii.gz",
+   "label": "mask/C0187.nii.gz",
+   "edge": "edge/C0187.nii.gz"
+  },
+  {
+   "image": "ct/C0205.nii.gz",
+   "label": "mask/C0205.nii.gz",
+   "edge": "edge/C0205.nii.gz"
+  },
+  {
+   "image": "ct/C0209.nii.gz",
+   "label": "mask/C0209.nii.gz",
+   "edge": "edge/C0209.nii.gz"
+  },
+  {
+   "image": "ct/C0227.nii.gz",
+   "label": "mask/C0227.nii.gz",
+   "edge": "edge/C0227.nii.gz"
+  }
+ ]
+}
